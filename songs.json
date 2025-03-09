@@ -1,0 +1,122 @@
+[
+    {
+        "song": "Creep",
+        "lyrics": "Whatever makes you happy, whatever you want/You're so fuckin' special, I wish I was special",
+        "album": "Pablo Honey",
+        "cover": "pablo-honey.jpg" 
+    },
+    {
+        "song": "Fake Plastic Trees",
+        "lyrics": "And if I could be who you wanted/If I could be who you wanted/All the time",
+        "album": "The Bends",
+        "cover": "the-bends.png" 
+    },
+    {
+        "song": "15 Step",
+        "lyrics": "How come I end up where I started?/How come I end up where I went wrong?",
+        "album": "In Rainbows",
+        "cover": "in-rainbows.png" 
+    },
+    {
+        "song": "Airbag",
+        "lyrics": "In a jackknifed juggernaut/I am born again",
+        "album": "OK Computer",
+        "cover": "ok-computer.png" 
+    },
+    {
+        "song": "Street Spirit (Fade Out)",
+        "lyrics": "Be a world child, form a circle/Before we all go under",
+        "album": "The Bends",
+        "cover": "the-bends.png" 
+    },
+    {
+        "song": "No Surprises",
+        "lyrics": "I'll take a quiet life/A handshake of carbon monoxide/And no alarms and no surprises",
+        "album": "OK Computer",
+        "cover": "ok-computer.png" 
+    },
+    {
+        "song": "All I Need",
+        "lyrics": "You are all I need/You're all I need",
+        "album": "In Rainbows",
+        "cover": "in-rainbows.png" 
+    },
+    {
+        "song": "Let Down",
+        "lyrics": "And one day/I am gonna grow wings/A chemical reaction/Hysterical and useless",
+        "album": "OK Computer",
+        "cover": "ok-computer.png" 
+    },
+    {
+        "song": "Everything in Its Right Place",
+        "lyrics": "Everything/In its right place/Everything/Everything",
+        "album": "Kid A",
+        "cover": "kid-a.png" 
+    },
+    {
+        "song": "Daydreaming",
+        "lyrics": "Dreamers/They never learn/Beyond the point/Of no return",
+        "album": "A Moon Shaped Pool",
+        "cover": "a-moon-shaped-pool.png" 
+    },
+    {
+        "song": "House of Cards",
+        "lyrics": "I don't want to be your friend/I just want to be your lover",
+        "album": "In Rainbows",
+        "cover": "in-rainbows.png" 
+    },
+    {
+        "song": "(Nice Dream)",
+        "lyrics": "They love me like I was a brother/They protect me, listen to me",
+        "album": "The Bends",
+        "cover": "the-bends.png" 
+    },
+    {
+        "song": "You",
+        "lyrics": "You are the sun and moon and stars are you/And I could never run away from you",
+        "album": "Pablo Honey",
+        "cover": "pablo-honey.jpg" 
+    },
+    {
+        "song": "Anyone Can Play Guitar",
+        "lyrics": "I wanna be in a band when I get to heaven/Anyone can play guitar and they won't be a nothing anymore",
+        "album": "Pablo Honey",
+        "cover": "pablo-honey.jpg" 
+    },
+    {
+        "song": "Karma Police",
+        "lyrics": "Karma police, I've given all I can, it's not enough/I've given all I can, but we're still on the payroll",
+        "album": "OK Computer",
+        "cover": "ok-computer.png" 
+    },
+    {
+        "song": "In Limbo",
+        "lyrics": "You're living in a fantasy world/This beautiful world",
+        "album": "Kid A",
+        "cover": "kid-a.png" 
+    },
+    {
+        "song": "Scatterbrain",
+        "lyrics": "Yesterday's headlines blown by the wind/Yesterday's people in a scatterbrain",
+        "album": "Hail to the Thief",
+        "cover": "hail-to-the-theif.png" 
+    },
+    {
+        "song": "Sit Down. Stand Up.",
+        "lyrics": "Stand up/Sit down/The raindrops, the raindrops, the raindrops, the raindrops",
+        "album": "Hail to the Thief",
+        "cover": "hail-to-the-theif.png" 
+    },
+    {
+        "song": "True Love Waits",
+        "lyrics": "And true love waits/In haunted attics",
+        "album": "A Moon Shaped Pool",
+        "cover": "a-moon-shaped-pool.png" 
+    },
+    {
+        "song": "High and Dry",
+        "lyrics": "All your insides fall to pieces/You just sit there wishing you could still make love",
+        "album": "The Bends",
+        "cover": "the-bends.png" 
+    }
+]
