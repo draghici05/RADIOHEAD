@@ -10,6 +10,11 @@ export default function RootLayout() {
           headerShown: false
         } 
       } />
+      <Stack.Screen name="input" options={
+        {
+          headerShown: false
+        }
+      } />
     </Stack>
   )
 }
