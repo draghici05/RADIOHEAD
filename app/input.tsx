@@ -8,21 +8,20 @@ const input = () => {
   })
 
   const [value, onChangeText] = React.useState('bitch ass hoe');
-    return (
-      <View style={styles.container}>
-        <TextInput
-          editable
-          multiline
-          numberOfLines={2}
-          maxLength={40}
-          onChangeText={text => onChangeText(text)}
-          value={value}
-          style={styles.input}
-        >
-        </TextInput>
-      </View>
-    )
-  }
+  return (
+    <View style={styles.container}>
+      <TextInput
+        editable
+        numberOfLines={1}
+        maxLength={20}
+        onChangeText={text => onChangeText(text)}
+        value={value}
+        style={styles.input}
+      >
+      </TextInput>
+    </View>
+  )
+}
 export default input
 
 const styles = StyleSheet.create({
@@ -30,10 +29,13 @@ const styles = StyleSheet.create({
     display: 'flex',
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
 
   input: {
-    padding: 10
+    padding: 5,
+    borderColor: 'black',
+    borderRadius: 3,
+    borderWidth: 1.5
   }
 })

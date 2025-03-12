@@ -1,8 +1,28 @@
-import React, { useEffect, useRef } from 'react'
-import { StyleSheet, Text, View, Animated, Easing, ImageBackground } from 'react-native'
-import { Link } from 'expo-router'
+import React, { useEffect, useRef, useState } from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import { NavigationAction, NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { useFonts } from 'expo-font'
+import { Pressable } from 'react-native'
 
+const Stack = createNativeStackNavigator();
+
+const ActualPage = ({ navigation }: { navigation: any }) => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>RADIOHEAD</Text>
+      <Pressable 
+          onPress={() => navigation.navigate('input')}
+        style={({ hovered, pressed}) => [
+          styles.button,
+          hovered && styles.buttonHover,
+          pressed && styles.buttonPressed,
+        ]}>
+          <Text style={styles.buttonText}>Go to input </Text>
+      </Pressable>
+    </View>
+  )
+}
 
 const index = () => {
   const [fontsLoaded] = useFonts({
@@ -10,12 +30,9 @@ const index = () => {
   })
 
   return (
-    <View style={styles.container}>
-      <Text style={{
-        fontFamily: 'Poppins', fontSize: 72, color: ''
-      }}>TELL ME YOU ARE A LOSER</Text>
-      <Link href="/input" style={{ color: 'blue', fontSize: 36, fontFamily: 'Poppins' }}>GO TO INPUT</Link>
-    </View>
+    <Stack.Navigator>
+      <Stack.Screen name='ActualPage' component={ActualPage} options={{ headerShown: false }} />
+    </Stack.Navigator>
   )
 }
 export default index
@@ -26,11 +43,34 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'red'
-  },
+    backgroundColor: '#91A092'
+  },  
 
   text: {
-    fontFamily: 'Poppins', fontSize: 72, color: ''
+    fontFamily: 'Poppins', fontSize: 52, color: ''
   },
+
+  button: {
+    marginTop: 20,
+    backgroundColor: 'blue',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 7,
+  },
+
+  buttonText: {
+    fontFamily: 'Poppins',
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+
+  buttonHover: {
+    backgroundColor: 'green'
+  },
+
+  buttonPressed: {
+    backgroundColor: 'navy'
+  }
 
 })
