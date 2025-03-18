@@ -20,6 +20,11 @@ const ActualPage = ({ navigation }: { navigation: any }) => {
         ]}>
           <Text style={styles.buttonText}>Go to input </Text>
       </Pressable>
+      <Text 
+      style={styles.text2} 
+      onPress={() => navigation.navigate('profile')}>
+          Who is RADIOHEAD?        
+      </Text>
     </View>
   )
 }
@@ -43,11 +48,13 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#91A092'
+    backgroundColor: '#D4D4D4'
   },  
 
   text: {
-    fontFamily: 'Poppins', fontSize: 52, color: ''
+    fontFamily: 'Poppins', 
+    fontSize: 52, 
+    color: ''
   },
 
   button: {
@@ -71,6 +78,13 @@ const styles = StyleSheet.create({
 
   buttonPressed: {
     backgroundColor: 'navy'
+  },
+
+  text2: {
+    fontFamily: 'Poppins', 
+    fontSize: 18,
+    color: 'blue',
+    marginTop: 120
   }
 
 })
