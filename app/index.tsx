@@ -20,11 +20,12 @@ const ActualPage = ({ navigation }: { navigation: any }) => {
         ]}>
           <Text style={styles.buttonText}>Go to input </Text>
       </Pressable>
-      <Text 
-      style={styles.text2} 
+
+      <Pressable
+      style={styles.button} 
       onPress={() => navigation.navigate('profile')}>
           Who is RADIOHEAD?        
-      </Text>
+      </Pressable>
     </View>
   )
 }
