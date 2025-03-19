@@ -22,7 +22,7 @@ const ActualPage = ({ navigation }: { navigation: any }) => {
       </Pressable>
 
       <Pressable
-      style={styles.button} 
+      style={styles.text2} 
       onPress={() => navigation.navigate('profile')}>
           Who is RADIOHEAD?        
       </Pressable>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins', 
     fontSize: 18,
     color: 'blue',
-    marginTop: 120
+    marginTop: 40
   }
 
 })
